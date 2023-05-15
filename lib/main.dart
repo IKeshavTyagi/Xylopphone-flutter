@@ -9,7 +9,7 @@ class XylophoneApp extends StatelessWidget {
   }
   Expanded buildkey(String ,int b){
     return  Expanded(
-      child: TextButton(
+      child:TextButton(
         onPressed:(){
           playsound(b);
         }, style: TextButton.styleFrom(
